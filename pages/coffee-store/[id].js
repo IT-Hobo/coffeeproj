@@ -17,5 +17,3 @@ const CoffeeStore = () => {
 };
 
 export default CoffeeStore;
-
-//On lesson 41 of react course
