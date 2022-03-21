@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Banner from '../components/banner'
+import Card from '../components/card'
 
 export default function Home() {
 
@@ -17,7 +18,8 @@ export default function Home() {
       <main className={styles.main}>
         <Banner buttonText="View Stores Nearby" handleOnClick={handleOnBannerBtnClick} />
         <div className={styles.heroImage}>
-        <Image  src="/static/hero-image.svg" width={500} height={400}  />
+        <Image  src="/static/hero-image.svg" width={500} height={400} alt="hero-image"  />
+        <Card name='StarBucks' imgUrl='/static/hero-image.svg' href='/coffee-store/starbucks' />
         </div>
       </main>
     </div>
