@@ -16,10 +16,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Banner buttonText="View Stores Nearby" handleOnClick={handleOnBannerBtnClick} />
+          <Banner buttonText="View Stores Nearby" handleOnClick={handleOnBannerBtnClick} />
         <div className={styles.heroImage}>
-        <Image  src="/static/hero-image.svg" width={500} height={400} alt="hero-image"  />
-        <Card name='StarBucks' imgUrl='/static/hero-image.svg' href='/coffee-store/starbucks' />
+          <Image  src="/static/hero-image.svg" width={500} height={400} alt="hero-image"  />
+        <div className={styles.cardLayout}>
+          <Card className={styles.card} name='StarBucks' imgUrl='/static/hero-image.svg' href='/coffee-store/starbucks' />
+          <Card className={styles.card} name='StarBucks' imgUrl='/static/hero-image.svg' href='/coffee-store/starbucks' />
+        </div>
         </div>
       </main>
     </div>
