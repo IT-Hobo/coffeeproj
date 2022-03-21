@@ -1,5 +1,9 @@
 import Link from "next/link";
 import {useRouter} from "next/router";
+import coffeeStoreData from '../../data/coffee-stores.json'
+
+
+
 
 const CoffeeStore = () => {
     const router = useRouter();

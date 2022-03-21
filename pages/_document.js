@@ -7,19 +7,19 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="preload"
-            href='/public/fonts/MPLUSRounded1c-Bold.ttf'
+            href='/fonts/MPLUSRounded1c-Bold.ttf'
             as='font'
             crossOrigin='anonymous'
           ></link>
           <link
             rel="preload"
-            href='/public/fonts/MPLUSRounded1c-Medium.ttf'
+            href='/fonts/MPLUSRounded1c-Medium.ttf'
             as='font'
             crossOrigin='anonymous'
           ></link>
           <link
             rel="preload"
-            href='/public/fonts/MPLUSRounded1c-Regular.ttf'
+            href='/fonts/MPLUSRounded1c-Regular.ttf'
             as='font'
             crossOrigin='anonymous'
           ></link>
